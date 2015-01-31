@@ -1,0 +1,11 @@
+{
+	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
+	"font_size": 13,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"spacegray_tabs_auto_width": true,
+	"theme": "Spacegray.sublime-theme",
+	"translate_tabs_to_spaces": true
+}
