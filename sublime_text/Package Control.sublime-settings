@@ -1,17 +1,16 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
 	"installed_packages":
 	[
-		"Numix Theme",
+		"DashDoc",
+		"DocBlockr",
+		"GitGutter",
+		"Gradle_Language",
 		"Package Control",
-		"Predawn",
-		"Theme - Brogrammer",
-		"Theme - Glacier",
-		"Theme - itg.flat",
-		"Theme - Piatto",
-		"Theme - Spacegray",
-		"Theme - Tech49"
+		"Solarized Color Scheme",
+		"Theme - Afterglow"
 	]
 }

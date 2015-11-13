@@ -1,13 +1,15 @@
 {
 	"bold_folder_labels": true,
 	"caret_style": "phase",
-	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
-	"font_size": 12,
+	"color_scheme": "Packages/Solarized Color Scheme/Solarized (light).tmTheme",
+	"font_face": "Hack",
+	"font_size": 13,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
-	"spacegray_tabs_auto_width": true,
-	"theme": "Spacegray.sublime-theme",
+	"theme": "Afterglow-green.sublime-theme",
+	"tabs_small": true,
+	"tab_size": 4,
 	"translate_tabs_to_spaces": true
 }
