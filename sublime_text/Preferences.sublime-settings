@@ -6,10 +6,17 @@
 	"font_size": 13,
 	"ignored_packages":
 	[
+		"Markdown Extended",
+		"Numix Theme",
+		"Predawn",
+		"Theme - Brogrammer",
+		"Theme - Centurion",
+		"Theme - Glacier",
+		"Theme - itg.flat",
 		"Vintage"
 	],
-	"theme": "Afterglow-green.sublime-theme",
-	"tabs_small": true,
 	"tab_size": 4,
+	"tabs_small": true,
+	"theme": "Afterglow-green.sublime-theme",
 	"translate_tabs_to_spaces": true
 }

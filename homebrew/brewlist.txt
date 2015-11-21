@@ -1,6 +1,6 @@
+archey
 autoconf
 brew-cask
-brew-cask-completion
 cairo
 cmake
 flac
@@ -11,7 +11,9 @@ gettext
 git
 glib
 gmp
+go
 gradle
+io
 jpeg
 jq
 libevent
@@ -22,14 +24,18 @@ libsndfile
 libtiff
 libvorbis
 maven
+node
 oniguruma
 openssl
 ossp-uuid
 pcre
 pixman
 pkg-config
+python3
+rbenv
 readline
-rest-shell
+ruby-build
+sqlite
 the_silver_searcher
 thefuck
 trash

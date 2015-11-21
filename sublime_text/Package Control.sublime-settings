@@ -7,10 +7,15 @@
 	[
 		"DashDoc",
 		"DocBlockr",
+		"EmberScript",
 		"GitGutter",
 		"Gradle_Language",
+		"Handlebars",
 		"Package Control",
 		"Solarized Color Scheme",
 		"Theme - Afterglow"
+	],
+	"repositories":
+	[
 	]
 }
