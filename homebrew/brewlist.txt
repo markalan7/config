@@ -3,6 +3,8 @@ autoconf
 brew-cask
 cairo
 cmake
+elixir
+erlang
 flac
 fontconfig
 freetype
@@ -16,6 +18,7 @@ gradle
 io
 jpeg
 jq
+leiningen
 libevent
 libffi
 libogg
@@ -35,12 +38,15 @@ python3
 rbenv
 readline
 ruby-build
+scala
 sqlite
 the_silver_searcher
 thefuck
 trash
 tree
+unixodbc
 wget
+wxmac
 xz
 yajl
 yank
