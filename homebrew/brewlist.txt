@@ -1,6 +1,8 @@
 archey
 autoconf
 automake
+brew-cask
+brew-cask-completion
 cairo
 cmake
 elixir
@@ -17,6 +19,7 @@ gmp
 go
 gradle
 io
+javarepl
 jpeg
 jq
 leiningen
@@ -38,6 +41,7 @@ pkg-config
 python3
 rbenv
 readline
+rest-shell
 ruby-build
 scala
 sqlite
@@ -46,6 +50,7 @@ thefuck
 trash
 tree
 unixodbc
+vim
 wget
 wxmac
 xz
