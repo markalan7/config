@@ -4,6 +4,7 @@ appcleaner
 atom
 colloquy
 dash
+dropbox
 flux
 font-dejavu-sans
 font-source-code-pro
@@ -15,6 +16,7 @@ java
 logisim
 macdown
 malwarebytes-anti-malware
+mamp
 onyx
 pycharm-ce
 slack
@@ -23,3 +25,5 @@ sublime-text3
 tomighty
 visual-studio-code
 vlc
+xampp
+ynab
