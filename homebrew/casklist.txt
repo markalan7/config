@@ -1,9 +1,13 @@
+1password
 adobe-reader
 appcleaner
 atom
+colloquy
 dash
 flux
 github-desktop
+google-drive
+hexchat
 intellij-idea-ce
 java
 logisim
