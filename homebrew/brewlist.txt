@@ -1,9 +1,10 @@
 archey
 autoconf
-brew-cask
+automake
 cairo
 cmake
 elixir
+emacs-mac
 erlang
 flac
 fontconfig

@@ -10,5 +10,5 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 # aliases
 eval "$(thefuck --alias)"
 alias brewjump="brew update && brew upgrade && brew cleanup && brew cask cleanup"
-alias brewsave="brew list > ~/config/homebrew/brewlist.txt; brew cask list > ~/config/homebrew/casklist.txt"
+alias brewsave="{ cat ~/config/homebrew/brewlist.txt ; brew list ; } | sort | uniq > ~/config/homebrew/brewlist.txt && { cat ~/config/homebrew/casklist.txt ; brew cask list ; } | sort | uniq > ~/config/homebrew/casklist.txt"
 
