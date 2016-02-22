@@ -5,6 +5,8 @@ atom
 colloquy
 dash
 flux
+font-dejavu-sans
+font-source-code-pro
 github-desktop
 google-drive
 hexchat
