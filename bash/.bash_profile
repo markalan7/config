@@ -5,6 +5,7 @@ fi
 
 # path
 export PATH="/usr/local/sbin:$PATH"
+export GRADLE_HOME="/usr/local/Cellar/gradle/2.12/libexec"
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 # aliases

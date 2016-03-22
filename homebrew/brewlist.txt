@@ -1,9 +1,8 @@
 archey
 autoconf
 automake
-brew-cask
-brew-cask-completion
 cairo
+carthage
 cmake
 elixir
 emacs-mac
@@ -41,7 +40,6 @@ pkg-config
 python3
 rbenv
 readline
-rest-shell
 ruby-build
 scala
 sqlite
@@ -50,7 +48,6 @@ thefuck
 trash
 tree
 unixodbc
-vim
 wget
 wxmac
 xz
