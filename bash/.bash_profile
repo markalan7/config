@@ -5,6 +5,8 @@ fi
 
 # path
 export PATH="/usr/local/sbin:$PATH"
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home
+export IDEA_JDK=/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home
 export GRADLE_HOME="/usr/local/Cellar/gradle/2.12/libexec"
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
