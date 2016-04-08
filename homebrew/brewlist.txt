@@ -1,9 +1,13 @@
 archey
 autoconf
 automake
+boot2docker
+brew-cask
+brew-cask-completion
 cairo
 carthage
 cmake
+docker
 elixir
 emacs-mac
 erlang
@@ -19,6 +23,7 @@ go
 gradle
 io
 javarepl
+jenv
 jpeg
 jq
 leiningen
@@ -40,6 +45,7 @@ pkg-config
 python3
 rbenv
 readline
+rest-shell
 ruby-build
 scala
 sqlite
@@ -48,6 +54,7 @@ thefuck
 trash
 tree
 unixodbc
+vim
 wget
 wxmac
 xz
