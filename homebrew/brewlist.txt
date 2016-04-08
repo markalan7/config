@@ -8,6 +8,7 @@ cairo
 carthage
 cmake
 docker
+docker-machine
 elixir
 emacs-mac
 erlang
