@@ -1,7 +1,6 @@
 archey
 autoconf
 automake
-boot2docker
 brew-cask
 brew-cask-completion
 cairo
