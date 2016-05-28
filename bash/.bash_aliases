@@ -1,7 +1,8 @@
 # aliases
 alias bsave="{ cat ~/config/homebrew/brewlist.txt ; brew list ; } | sort | uniq > ~/config/homebrew/brewlist.txt && { cat ~/config/homebrew/casklist.txt ; brew cask list ; } | sort | uniq > ~/config/homebrew/casklist.txt"
-alias la="ls -a"
-alias ll="ls -al"
+alias ls="ls -F"
+alias la="ls -aF"
+alias ll="ls -alF"
 alias work="cd ~/ccd"
 alias bs="brew search"
 alias bi="brew install"

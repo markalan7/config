@@ -9,6 +9,8 @@ if [ -f ~/.bash_aliases ]; then
 fi
 
 # path
+export CLICOLOR=1
+export LSCOLORS=ExFxCxDxBxegedabagacad
 export PATH="/usr/local/sbin:$PATH"
 export JAVA_HOME=$(/usr/libexec/java_home)                   # java
 export IDEA_JDK=$(/usr/libexec/java_home)                    # intellij idea
