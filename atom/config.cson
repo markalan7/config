@@ -1,0 +1,33 @@
+"*":
+  core:
+    customFileTypes:
+      "source.ini": [
+        ".buckconfig"
+        ".flowconfig"
+      ]
+      "source.json": [
+        ".arcconfig"
+        "BUCK.autodeps"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
+    themes: [
+      "one-dark-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+  editor:
+    fontSize: 16
+    invisibles: {}
+  "exception-reporting":
+    userId: "ca751841-69a1-6fda-c8bb-811f2c8b4940"
+  "file-watcher":
+    promptWhenFileHasChangedOnDisk: false
+  latex:
+    alwaysOpenResultInAtom: true
+    buildOnSave: true
+  nuclide:
+    "nuclide-home":
+      showHome: false
+  welcome:
+    showOnStartup: false

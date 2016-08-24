@@ -1,0 +1,8 @@
+packages: [
+  "github-atom-light-syntax"
+  "language-latex"
+  "latex"
+  "package-sync"
+  "pdf-view"
+  "pigments"
+]
