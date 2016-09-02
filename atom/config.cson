@@ -20,6 +20,8 @@
     fontSize: 16
     invisibles: {}
     softWrap: true
+    tabLength: 4
+    tabType: "soft"
   "exception-reporting":
     userId: "ca751841-69a1-6fda-c8bb-811f2c8b4940"
   "file-watcher":
@@ -30,5 +32,6 @@
   nuclide:
     "nuclide-home":
       showHome: false
+  "package-sync": {}
   welcome:
-    showOnStartup: false
+    showOnStartup: true
