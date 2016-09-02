@@ -19,13 +19,14 @@
   editor:
     fontSize: 16
     invisibles: {}
+    softWrap: true
   "exception-reporting":
     userId: "ca751841-69a1-6fda-c8bb-811f2c8b4940"
   "file-watcher":
     promptWhenFileHasChangedOnDisk: false
   latex:
     alwaysOpenResultInAtom: true
-    buildOnSave: true
+    enableSynctex: false
   nuclide:
     "nuclide-home":
       showHome: false
