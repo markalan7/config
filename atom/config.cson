@@ -17,8 +17,9 @@
       "github-atom-light-syntax"
     ]
   editor:
-    fontSize: 15
+    fontSize: 17
     invisibles: {}
+    showIndentGuide: true
     softWrap: true
     tabLength: 4
     tabType: "soft"
