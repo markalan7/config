@@ -14,10 +14,10 @@
       ]
     themes: [
       "one-dark-ui"
-      "base16-tomorrow-dark-theme"
+      "github-atom-light-syntax"
     ]
   editor:
-    fontSize: 16
+    fontSize: 15
     invisibles: {}
     softWrap: true
     tabLength: 4
@@ -29,9 +29,15 @@
   latex:
     alwaysOpenResultInAtom: true
     enableSynctex: false
+  minimap:
+    plugins:
+      codeglance: true
+      codeglanceDecorationsZIndex: 0
+      cursorline: true
+      cursorlineDecorationsZIndex: 0
   nuclide:
     "nuclide-home":
       showHome: false
   "package-sync": {}
   welcome:
-    showOnStartup: true
+    showOnStartup: false

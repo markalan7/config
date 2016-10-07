@@ -8,6 +8,12 @@ if [ -f ~/.bash_aliases ]; then
     source ~/.bash_aliases
 fi
 
+# pyspark
+if which pyspark > /dev/null; then
+    export SPARK_HOME="/usr/local/Cellar/apache-spark/2.0.0/libexec/"
+    export PYTHONPATH=$SPARK_HOME/python:$SPARK_HOME/python/build:$SPARK_HOME/python/lib/py4j-0.10.1-src.zip:$PYTHONPATH
+fi
+
 # path
 export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
