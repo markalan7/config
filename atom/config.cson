@@ -17,12 +17,10 @@
       "github-atom-light-syntax"
     ]
   editor:
-    fontSize: 17
     invisibles: {}
     showIndentGuide: true
     softWrap: true
     tabLength: 4
-    tabType: "soft"
   "exception-reporting":
     userId: "ca751841-69a1-6fda-c8bb-811f2c8b4940"
   "file-watcher":
