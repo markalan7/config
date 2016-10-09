@@ -11,7 +11,7 @@ fi
 
 ## config
 export CLICOLOR=1
-#export LSCOLORS=ExFxCxDxBxegedabagacad
+export LSCOLORS=ExFxCxDxBxegedabagacad
 
 # history
 HISTSIZE=10000          # 10,000 lines
@@ -22,6 +22,8 @@ HISTCONTROL=ignoredups  # ignore duplicate cmds
 export PATH="/usr/local/sbin:/opt/local/bin:/opt/local/sbin:$PATH"
 
 ## env variables
+export EDITOR="/usr/local/bin/vim"
+
 # java
 if which java > /dev/null; then
     export JAVA_HOME=$(/usr/libexec/java_home)
