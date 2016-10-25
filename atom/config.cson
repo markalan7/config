@@ -12,13 +12,14 @@
       "source.python": [
         "BUCK"
       ]
+    telemetryConsent: "no"
     themes: [
       "one-dark-ui"
       "github-atom-light-syntax"
     ]
   editor:
+    fontSize: 13
     invisibles: {}
-    showIndentGuide: true
     softWrap: true
     tabLength: 4
   "exception-reporting":

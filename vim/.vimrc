@@ -7,6 +7,8 @@ set tabstop=4 softtabstop=4 expandtab shiftwidth=4 smarttab number showcmd curso
 syntax enable
 
 "" remaps
+" leader
+:let mapleader = ","
 " clear search highlighting
 nnoremap ,<space> :nohlsearch<CR>
 " folding
@@ -16,8 +18,11 @@ nnoremap j gj
 nnoremap k gk
 nnoremap gV `[v`]
 
+
 "" plug-ins
 call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdtree'
+Plug 'elixir-lang/vim-elixir'
+Plug 'scrooloose/nerdcommenter'
 call plug#end()
 
