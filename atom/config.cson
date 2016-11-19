@@ -12,6 +12,9 @@
       "source.python": [
         "BUCK"
       ]
+    disabledPackages: [
+      "autocomplete-elixir"
+    ]
     telemetryConsent: "no"
     themes: [
       "one-dark-ui"
