@@ -27,8 +27,8 @@
   "file-watcher":
     promptWhenFileHasChangedOnDisk: false
   latex:
-    alwaysOpenResultInAtom: true
     enableSynctex: false
+    opener: "pdf-view"
   minimap:
     plugins:
       codeglance: true
@@ -38,6 +38,7 @@
   nuclide:
     "nuclide-home":
       showHome: false
-  "package-sync": {}
+  "package-sync":
+    forceOverwrite: true
   welcome:
     showOnStartup: false
