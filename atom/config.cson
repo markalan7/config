@@ -18,7 +18,7 @@
     telemetryConsent: "no"
     themes: [
       "one-dark-ui"
-      "atom-dark-syntax"
+      "nord-atom-syntax"
     ]
   editor:
     fontSize: 13
