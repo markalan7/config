@@ -18,11 +18,12 @@ nnoremap j gj
 nnoremap k gk
 nnoremap gV `[v`]
 
-
 "" plug-ins
 call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdtree'
 Plug 'elixir-lang/vim-elixir'
 Plug 'scrooloose/nerdcommenter'
+Plug 'airblade/vim-gitgutter'
+Plug 'vimwiki/vimwiki'
 call plug#end()
 
