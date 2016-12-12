@@ -47,7 +47,7 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 export NVM_DIR="$HOME/.nvm"
   . "$(brew --prefix nvm)/nvm.sh"
 
-# pyspark
+# Spark
 if which pyspark > /dev/null; then
     export SPARK_HOME="/usr/local/Cellar/apache-spark/2.0.2/libexec/"
     export PATH="$PATH:$SPARK_HOME/bin/"
