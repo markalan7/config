@@ -1,0 +1,13 @@
+akamud.vscode-theme-onedark
+azemoh.one-monokai
+donjayamanne.python
+eg2.vscode-npm-script
+gerane.Theme-azure
+lukehoban.Go
+mjmcloug.vscode-elixir
+ms-vscode.Theme-MaterialKit
+ms-vscode.cpptools
+ms-vscode.csharp
+redhat.java
+robertohuertasm.vscode-icons
+yuce.erlang-otp
