@@ -12,3 +12,10 @@ alias bup="brew update"
 alias bug="brew upgrade"
 alias bcl="brew cleanup"
 alias randommac="openssl rand -hex 6 | sed 's/\(..\)/\1:/g; s/.$//'"
+
+typora() {
+    if [ ! -f $1 ] ; then
+        touch $1
+    fi
+    open -a /Applications/Typora.app $1
+}
