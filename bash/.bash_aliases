@@ -10,7 +10,7 @@ alias la="ls -aF"
 alias ll="ls -alF"
 alias bup="brew update"
 alias bug="brew upgrade"
-alias bcl="brew cleanup"
+alias bcl="brew cleanup ; brew cask cleanup"
 alias randommac="openssl rand -hex 6 | sed 's/\(..\)/\1:/g; s/.$//'"
 
 typora() {
