@@ -54,11 +54,9 @@ if which pyspark > /dev/null; then
     export PYTHONPATH=$SPARK_HOME/python:$SPARK_HOME/python/build:$SPARK_HOME/python/lib/py4j-0.10.1-src.zip:$PYTHONPATH
 fi
 
-# apache hadoop
-#if which hadoop > /dev/null; then
-#    export HADOOP_HOME="/usr/local/Cellar/hadoop/2.7.3/libexec/"
-#fi
+# Google Cloud
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/mark/Downloads/google-cloud-sdk/path.bash.inc' ]; then source '/Users/mark/Downloads/google-cloud-sdk/path.bash.inc'; fi
 
-# apache giraph
-#export GIRAPH_HOME=/opt/giraph
-
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/mark/Downloads/google-cloud-sdk/completion.bash.inc' ]; then source '/Users/mark/Downloads/google-cloud-sdk/completion.bash.inc'; fi
