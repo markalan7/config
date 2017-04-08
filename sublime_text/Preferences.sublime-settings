@@ -1,15 +1,16 @@
 {
 	"bold_folder_labels": true,
 	"caret_style": "phase",
-	"color_scheme": "Packages/User/SublimeLinter/base16-ocean.dark (SL).tmTheme",
 	"draw_white_space": "selection",
 	"font_face": "Menlo",
 	"font_size": 13,
 	"ignored_packages":
 	[
+		"Elixir",
 		"Markdown Extended",
 		"Numix Theme",
 		"Predawn",
+		"Swift",
 		"Theme - Brogrammer",
 		"Theme - Centurion",
 		"Theme - Glacier",
@@ -18,6 +19,6 @@
 	],
 	"tab_size": 4,
 	"tabs_small": true,
-	"theme": "Spacegray.sublime-theme",
+	"theme": "Default.sublime-theme",
 	"translate_tabs_to_spaces": true
 }
