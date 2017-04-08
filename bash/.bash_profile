@@ -30,17 +30,14 @@ if which java > /dev/null; then
     export IDEA_JDK=$(/usr/libexec/java_home)
 fi
 
-# java version manager
-eval "$(jenv init -)"
-
 # gradle
 if which gradle > /dev/null; then
-    export GRADLE_HOME="/usr/local/Cellar/gradle/3.1/libexec"
+    export GRADLE_HOME="/usr/local/Cellar/gradle/3.4.1/libexec"
 fi
 
 # ruby
 # ruby version manager
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+#if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 # node
 # node version manager
@@ -56,7 +53,7 @@ fi
 
 # Google Cloud
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/mark/Downloads/google-cloud-sdk/path.bash.inc' ]; then source '/Users/mark/Downloads/google-cloud-sdk/path.bash.inc'; fi
+if [ -f '/opt/google-cloud-sdk/path.bash.inc' ]; then source '/opt/google-cloud-sdk/path.bash.inc'; fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f '/Users/mark/Downloads/google-cloud-sdk/completion.bash.inc' ]; then source '/Users/mark/Downloads/google-cloud-sdk/completion.bash.inc'; fi
+if [ -f '/opt/google-cloud-sdk/completion.bash.inc' ]; then source '/opt/google-cloud-sdk/completion.bash.inc'; fi
