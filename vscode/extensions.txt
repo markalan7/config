@@ -1,3 +1,4 @@
+ajshort.latex-preview
 akamud.vscode-theme-onedark
 donjayamanne.python
 luniclynx.lex
