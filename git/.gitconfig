@@ -18,9 +18,12 @@
 	path = 
 [mergetool "sourcetree"]
 	cmd = /opt/homebrew-cask/Caskroom/sourcetree/2.0.5.5/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
-	trustExitCode = true
+    trustExitCode = true
+[help]
+    autocorrect = 20
 [alias]
 	co = checkout
 	br = branch
 	cm = commit
-	st = status
+    st = status
+    last = log -1 HEAD
