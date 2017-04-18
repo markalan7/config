@@ -1,4 +1,4 @@
 # Config #
 
-Configuration files for my desktops
+Config files
 
