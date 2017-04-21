@@ -46,7 +46,7 @@ export NVM_DIR="$HOME/.nvm"
 
 # Spark
 if which pyspark > /dev/null; then
-    export SPARK_HOME="/usr/local/Cellar/apache-spark/2.0.2/libexec/"
+    export SPARK_HOME="/usr/local/Cellar/apache-spark/2.1.0/libexec"
     export PATH="$PATH:$SPARK_HOME/bin/"
     export PYTHONPATH=$SPARK_HOME/python:$SPARK_HOME/python/build:$SPARK_HOME/python/lib/py4j-0.10.1-src.zip:$PYTHONPATH
 fi
