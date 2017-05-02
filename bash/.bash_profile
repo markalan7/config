@@ -13,6 +13,11 @@ export PATH="/usr/local/sbin:/opt/local/bin:/opt/local/sbin:$PATH"
 ## env variables
 export EDITOR="/usr/local/bin/vim"
 
+# bash completion
+if [ -f /usr/local/share/bash-completion/bash_completion ]; then
+    . /usr/local/share/bash-completion/bash_completion
+  fi
+
 # java
 if which java > /dev/null; then
     export JAVA_HOME=$(/usr/libexec/java_home)
