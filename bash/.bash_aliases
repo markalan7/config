@@ -15,6 +15,9 @@ alias bug="brew upgrade"
 alias bcl="brew cleanup ; brew cask cleanup"
 alias randommac="openssl rand -hex 6 | sed 's/\(..\)/\1:/g; s/.$//'"
 
+# flink
+alias flink-shell="$FLINK_HOME/bin/start-scala-shell.sh local"
+
 typora() {
     if [ ! -f $1 ] ; then
         touch $1

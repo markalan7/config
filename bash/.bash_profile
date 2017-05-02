@@ -1,14 +1,3 @@
-## sources
-# tokens
-if [ -f ~/.bash_tokens ]; then
-    source ~/.bash_tokens
-fi
-
-# aliases
-if [ -f ~/.bash_aliases ]; then
-    source ~/.bash_aliases
-fi
-
 ## config
 export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
@@ -46,9 +35,15 @@ export NVM_DIR="$HOME/.nvm"
 
 # Spark
 if which pyspark > /dev/null; then
-    export SPARK_HOME="/usr/local/Cellar/apache-spark/2.0.2/libexec/"
+    export SPARK_HOME="/usr/local/Cellar/apache-spark/2.1.0/libexec"
     export PATH="$PATH:$SPARK_HOME/bin/"
     export PYTHONPATH=$SPARK_HOME/python:$SPARK_HOME/python/build:$SPARK_HOME/python/lib/py4j-0.10.1-src.zip:$PYTHONPATH
+fi
+
+# Flink
+if which flink > /dev/null; then
+    export FLINK_HOME="/usr/local/Cellar/apache-flink/1.2.0/libexec"
+    export PATH="$PATH:$FLINK_HOME/bin/"
 fi
 
 # Google Cloud
@@ -57,3 +52,15 @@ if [ -f '/opt/google-cloud-sdk/path.bash.inc' ]; then source '/opt/google-cloud-
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/opt/google-cloud-sdk/completion.bash.inc' ]; then source '/opt/google-cloud-sdk/completion.bash.inc'; fi
+
+## sources
+# tokens
+if [ -f ~/.bash_tokens ]; then
+    source ~/.bash_tokens
+fi
+
+# aliases
+if [ -f ~/.bash_aliases ]; then
+    source ~/.bash_aliases
+fi
+
