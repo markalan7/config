@@ -51,6 +51,10 @@ if which flink > /dev/null; then
     export PATH="$PATH:$FLINK_HOME/bin/"
 fi
 
+# Android
+export ANDROID_HOME="~/Library/Android/sdk"
+export PATH="$ANDROID_HOME/tools/:$ANDROID_HOME/platform-tools/:$PATH"
+
 # Google Cloud
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/opt/google-cloud-sdk/path.bash.inc' ]; then source '/opt/google-cloud-sdk/path.bash.inc'; fi
