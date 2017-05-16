@@ -11,11 +11,14 @@ HISTCONTROL=ignoredups  # ignore duplicate cmds
 export PATH="/usr/local/sbin:/opt/local/bin:/opt/local/sbin:$PATH"
 
 ## env variables
-export EDITOR="/usr/local/bin/vim"
+export EDITOR="/usr/bin/vim"
+
+## windows home
+export win=/mnt/c/Users/Mark
 
 # bash completion
-if [ -f /usr/local/share/bash-completion/bash_completion ]; then
-    . /usr/local/share/bash-completion/bash_completion
+if [ -f /usr/share/bash-completion/bash_completion ]; then
+    . /usr/share/bash-completion/bash_completion
   fi
 
 ## sources
@@ -27,11 +30,5 @@ fi
 # aliases
 if [ -f ~/.bash_aliases ]; then
     source ~/.bash_aliases
-fi
-
-# Windows Subsystem for Linux
-VERSION=$(cat /proc/version)
-if [[ $VERSION == *"Microsoft"* ]]; then
-    . ~/.bash_wsl
 fi
 
