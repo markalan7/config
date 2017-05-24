@@ -11,6 +11,7 @@ Plug 'jreybert/vimagit'
 Plug 'tpope/vim-fugitive'
 Plug 'arcticicestudio/nord-vim'
 Plug 'morhetz/gruvbox'
+Plug 'rizzatti/dash.vim'
 call plug#end()
 
 "" settings
