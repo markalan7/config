@@ -5,9 +5,11 @@
 alias bsave="{ cat ~/config/homebrew/brewlist.txt ; brew list ; } | sort | uniq > ~/config/homebrew/brewlist.txt && { cat ~/config/homebrew/casklist.txt ; brew cask list ; } | sort | uniq > ~/config/homebrew/casklist.txt"
 
 # terminal
+alias l="ls -F"
 alias ls="ls -F"
 alias la="ls -aF"
 alias ll="ls -alF"
+alias py="python3"
 alias pythong="python"
 alias pythong3="python3"
 alias bup="brew update"
