@@ -39,8 +39,8 @@ fi
 
 # node
 # node version manager
-export NVM_DIR="$HOME/.nvm"
-  . "$(brew --prefix nvm)/nvm.sh"
+#export NVM_DIR="$HOME/.nvm"
+#  . "$(brew --prefix nvm)/nvm.sh"
 
 # Spark
 if which pyspark > /dev/null; then
