@@ -7,6 +7,10 @@ HISTSIZE=10000          # 10,000 lines
 HISTFILESIZE=-1         # unlimited file size
 HISTCONTROL=ignoredups  # ignore duplicate cmds
 
+# command history search
+bind '"\e[A": history-search-backward'
+bind '"\e[B": history-search-forward'
+
 ## path
 export PATH="/usr/local/sbin:/opt/local/bin:/opt/local/sbin:$PATH"
 
