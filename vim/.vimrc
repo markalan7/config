@@ -1,48 +1,61 @@
-"" plug-ins
-call plug#begin('~/.vim/plugged')
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
-Plug 'scrooloose/nerdtree'
-Plug 'scrooloose/nerdcommenter'
-Plug 'vim-scripts/mru.vim'
-Plug 'elixir-lang/vim-elixir'
-Plug 'airblade/vim-gitgutter'
-Plug 'jreybert/vimagit'
-Plug 'tpope/vim-fugitive'
-Plug 'arcticicestudio/nord-vim'
-Plug 'morhetz/gruvbox'
-Plug 'rizzatti/dash.vim'
-call plug#end()
+" Don't try to be vi compatible
+set nocompatible
 
-"" settings
-" make backspace work like other text editors
+" Turn on syntax highlighting
+syntax on
+
+" Show line number
+set number
+
+" Show file stats
+set ruler
+
+" Blink cursor on error instead of beeping
+set visualbell
+
+" Whitespace
+set wrap
+set textwidth=79
+set formatoptions=tcqrn1
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
+set expandtab
+set noshiftround
+
+" Cursor motion
+set scrolloff=3
 set backspace=indent,eol,start
-set tabstop=4 softtabstop=4
-set expandtab smarttab
-set shiftwidth=4
-set number ruler showcmd cursorline wildmenu showmatch incsearch hlsearch
-set foldenable foldlevelstart=10 foldnestmax=10 foldmethod=indent
+set matchpairs+=<:> " use % to jump between pairs
+runtime! macros/matchit.vim
 
-" syntax
-syntax enable
-
-" theme
-"colorscheme gruvbox
-
-"" remaps
-" leader
-:let mapleader = ","
-" clear search highlighting
-nnoremap ,<space> :nohlsearch<CR>
-" folding
-nnoremap <space> za
-" faster file navigation
+" Move up/down editor lines
 nnoremap j gj
 nnoremap k gk
-nnoremap gV `[v`]
 
-" airline
+" Allow hidden buffers
+set hidden
+
+" Rendering
+set ttyfast
+
+" Status bar
 set laststatus=2
-let g:airline#extensions#tabline#enabled=1
-let g:airline_theme='wombat'
+
+" Last line
+set showmode
+set showcmd
+
+" Searching
+nnoremap / /\v
+vnoremap / /\v
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+set showmatch
+map <leader><space> :let @/=''<cr> " clear search
+
+" Use system clipboard
+set clipboard=unnamed
 
